@@ -6,8 +6,8 @@ class Anagram
   end
 
   def match(anagrams)
-    match = []
-    anagrams.keep_if { |string| name.split(" ").sort == string.split(" ").sort}
+  
+    anagrams.keep_if { |string| word.split(" ").sort == string.split(" ").sort}
 
     # some_word.split("")   ==
   end
